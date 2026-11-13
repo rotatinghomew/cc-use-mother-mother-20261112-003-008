@@ -1,0 +1,2821 @@
+{
+  "plan": {
+    "agents": [
+      "agent-demo"
+    ],
+    "capability_expansion_at": 64,
+    "drift_factor": 2.2,
+    "drift_start": 55,
+    "duplicate_rate": 0.04,
+    "interval_seconds": 300,
+    "intervals": 96,
+    "late_rate": 0.12,
+    "revision_rate": 0.02,
+    "seed": 7,
+    "start_time": "2026-10-01T00:00:00Z"
+  },
+  "records": [
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:55:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0083",
+      "event_time": "2026-10-01T06:55:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 18.778348
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:15:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0075",
+      "event_time": "2026-10-01T06:15:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 166.856593
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:50:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0010",
+      "event_time": "2026-10-01T00:50:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 103.859221
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:15:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0063",
+      "event_time": "2026-10-01T05:15:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 161.633501
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:35:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0043",
+      "event_time": "2026-10-01T03:35:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 109.127893
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:35:07Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0040",
+      "event_time": "2026-10-01T03:20:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 115.990402
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:50:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0082",
+      "event_time": "2026-10-01T06:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 16.542541
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:25:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0053",
+      "event_time": "2026-10-01T04:25:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.229617
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:05:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0001",
+      "event_time": "2026-10-01T00:05:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.382461
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:40:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0044",
+      "event_time": "2026-10-01T03:40:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 104.075794
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:40:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0008",
+      "event_time": "2026-10-01T00:40:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 105.249088
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:00:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0060",
+      "event_time": "2026-10-01T05:00:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 21.226931
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:55:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0071",
+      "event_time": "2026-10-01T05:55:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 141.259242
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:45:37Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0033",
+      "event_time": "2026-10-01T02:45:00Z",
+      "metric": "tool_calls",
+      "revision": 2,
+      "type": "behavior",
+      "value": 7.260249
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:35:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0091",
+      "event_time": "2026-10-01T07:35:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 134.005762
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:30:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0066",
+      "event_time": "2026-10-01T05:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 21.891484
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:50:18Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0080",
+      "event_time": "2026-10-01T06:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.774174
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:50:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0010",
+      "event_time": "2026-10-01T00:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.709654
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:00:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0000",
+      "event_time": "2026-10-01T00:00:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.718132
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:10:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0038",
+      "event_time": "2026-10-01T03:10:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 115.459443
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:30:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0090",
+      "event_time": "2026-10-01T07:30:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 142.875891
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:00:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0072",
+      "event_time": "2026-10-01T06:00:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 141.602922
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:45:18Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0045",
+      "event_time": "2026-10-01T03:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.529358
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:30:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0078",
+      "event_time": "2026-10-01T06:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 22.038012
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:10:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0038",
+      "event_time": "2026-10-01T03:10:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.318456
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:35:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0043",
+      "event_time": "2026-10-01T03:35:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 8.787611
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:35:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0007",
+      "event_time": "2026-10-01T00:35:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 8.886899
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:10:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0062",
+      "event_time": "2026-10-01T05:10:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 26.032269
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:05:07Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0073",
+      "event_time": "2026-10-01T06:05:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 24.396286
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:35:11Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0055",
+      "event_time": "2026-10-01T04:35:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 18.478931
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:00:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0036",
+      "event_time": "2026-10-01T03:00:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.35492
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:00:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0084",
+      "event_time": "2026-10-01T07:00:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 22.427152
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:40:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0008",
+      "event_time": "2026-10-01T00:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.165905
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:30:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0014",
+      "event_time": "2026-10-01T01:10:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.342535
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:45:18Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0045",
+      "event_time": "2026-10-01T03:45:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 105.352975
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:40:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0056",
+      "event_time": "2026-10-01T04:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.906537
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:55:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0071",
+      "event_time": "2026-10-01T05:55:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 18.880459
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:00:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0072",
+      "event_time": "2026-10-01T06:00:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 21.591114
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:45:14Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0069",
+      "event_time": "2026-10-01T05:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.107767
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:45:14Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0069",
+      "event_time": "2026-10-01T05:45:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 127.168149
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:55:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0011",
+      "event_time": "2026-10-01T00:55:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 110.156338
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:45:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0079",
+      "event_time": "2026-10-01T06:35:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 135.511174
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:30:09Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0018",
+      "event_time": "2026-10-01T01:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.142598
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:30:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0066",
+      "event_time": "2026-10-01T05:30:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 149.561712
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:05:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0085",
+      "event_time": "2026-10-01T07:05:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 151.311775
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:35:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0067",
+      "event_time": "2026-10-01T05:35:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 18.79429
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:10:02Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0002",
+      "event_time": "2026-10-01T00:10:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 112.978237
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:20:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0052",
+      "event_time": "2026-10-01T04:20:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 111.977368
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:50:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0058",
+      "event_time": "2026-10-01T04:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.950463
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:20:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0064",
+      "event_time": "2026-10-01T05:20:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 154.55742
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:55:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0047",
+      "event_time": "2026-10-01T03:55:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 112.963545
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:25:14Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0041",
+      "event_time": "2026-10-01T03:25:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.864984
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:35:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0061",
+      "event_time": "2026-10-01T05:05:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 155.168923
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:25:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0077",
+      "event_time": "2026-10-01T06:25:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 158.197911
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:35:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0019",
+      "event_time": "2026-10-01T01:35:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 105.53425
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:15:19Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0003",
+      "event_time": "2026-10-01T00:15:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 115.144896
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:50:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0094",
+      "event_time": "2026-10-01T07:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.779438
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:50:19Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0022",
+      "event_time": "2026-10-01T01:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.198744
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:50:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0070",
+      "event_time": "2026-10-01T05:50:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 134.456044
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:05:09Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0049",
+      "event_time": "2026-10-01T04:05:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 119.48492
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:05:07Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0073",
+      "event_time": "2026-10-01T06:05:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 155.951239
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:40:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0017",
+      "event_time": "2026-10-01T01:25:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 113.266678
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:30:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0006",
+      "event_time": "2026-10-01T00:30:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 112.112968
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:30:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0042",
+      "event_time": "2026-10-01T03:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.25996
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:00:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0048",
+      "event_time": "2026-10-01T04:00:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.643497
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:10:02Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0002",
+      "event_time": "2026-10-01T00:10:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.246739
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:20:14Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0004",
+      "event_time": "2026-10-01T00:20:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 110.912352
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:20:06Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0028",
+      "event_time": "2026-10-01T02:20:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 113.811423
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:15:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0051",
+      "event_time": "2026-10-01T04:15:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.771155
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:15:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0075",
+      "event_time": "2026-10-01T06:15:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 28.232219
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:50:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0094",
+      "event_time": "2026-10-01T07:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.779438
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:50:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0070",
+      "event_time": "2026-10-01T05:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.50973
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:05:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0013",
+      "event_time": "2026-10-01T01:05:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 111.186111
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:55:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0095",
+      "event_time": "2026-10-01T07:55:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 18.85514
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:50:02Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0046",
+      "event_time": "2026-10-01T03:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.341026
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:40:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0044",
+      "event_time": "2026-10-01T03:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.27462
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:25:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0029",
+      "event_time": "2026-10-01T02:25:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.468307
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:00:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0048",
+      "event_time": "2026-10-01T04:00:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 108.710854
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:00:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0024",
+      "event_time": "2026-10-01T02:00:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 114.806954
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:20:14Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0004",
+      "event_time": "2026-10-01T00:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.578143
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:00:05Z",
+      "capabilities": [
+        "observe",
+        "summarize"
+      ],
+      "declaration_id": "agent-demo-cap-0",
+      "event_time": "2026-10-01T00:00:00Z",
+      "issuer": "synthetic-device",
+      "revision": 1,
+      "schema_version": 1,
+      "type": "capability"
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:20:05Z",
+      "capabilities": [
+        "observe",
+        "summarize",
+        "purchase",
+        "send_message"
+      ],
+      "declaration_id": "agent-demo-cap-1",
+      "event_time": "2026-10-01T05:20:00Z",
+      "issuer": "synthetic-device",
+      "revision": 1,
+      "schema_version": 1,
+      "type": "capability"
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:00:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0036",
+      "event_time": "2026-10-01T03:00:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 115.532729
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:25:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0029",
+      "event_time": "2026-10-01T02:25:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 119.254182
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:10:07Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0026",
+      "event_time": "2026-10-01T02:10:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 116.85617
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:05:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0001",
+      "event_time": "2026-10-01T00:05:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 110.006855
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:10:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0086",
+      "event_time": "2026-10-01T07:10:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 27.519154
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:10:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0086",
+      "event_time": "2026-10-01T07:10:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 164.314539
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:35:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0019",
+      "event_time": "2026-10-01T01:35:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 8.459779
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:15:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0027",
+      "event_time": "2026-10-01T02:15:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.743268
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:20:06Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0028",
+      "event_time": "2026-10-01T02:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.194498
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:35:07Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0040",
+      "event_time": "2026-10-01T03:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.686912
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:05:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0025",
+      "event_time": "2026-10-01T02:05:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.587415
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:45:09Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0057",
+      "event_time": "2026-10-01T04:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 16.946396
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:15:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0015",
+      "event_time": "2026-10-01T01:15:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 13.094275
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:50:11Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0054",
+      "event_time": "2026-10-01T04:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.513191
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:25:19Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0005",
+      "event_time": "2026-10-01T00:25:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.739162
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:05:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0013",
+      "event_time": "2026-10-01T01:05:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.905353
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:25:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0089",
+      "event_time": "2026-10-01T07:25:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 25.540347
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:55:02Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0059",
+      "event_time": "2026-10-01T04:55:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 132.612859
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:35:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0031",
+      "event_time": "2026-10-01T02:35:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 109.567767
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:25:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0089",
+      "event_time": "2026-10-01T07:25:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 161.076914
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:35:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0007",
+      "event_time": "2026-10-01T00:35:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 104.144963
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:50:19Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0022",
+      "event_time": "2026-10-01T01:50:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 97.610875
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:50:18Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0080",
+      "event_time": "2026-10-01T06:40:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 134.584787
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:25:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0065",
+      "event_time": "2026-10-01T05:25:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 160.891076
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:35:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0091",
+      "event_time": "2026-10-01T07:35:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 18.897309
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:15:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0087",
+      "event_time": "2026-10-01T07:15:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 27.443461
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:55:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0047",
+      "event_time": "2026-10-01T03:55:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.409981
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:40:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0092",
+      "event_time": "2026-10-01T07:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 16.476595
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:20:18Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0016",
+      "event_time": "2026-10-01T01:20:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 115.31466
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:45:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0088",
+      "event_time": "2026-10-01T07:20:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 154.066162
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:45:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0093",
+      "event_time": "2026-10-01T07:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 16.36589
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:45:07Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0033",
+      "event_time": "2026-10-01T02:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.01473
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:50:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0058",
+      "event_time": "2026-10-01T04:50:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 138.043103
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:45:09Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0057",
+      "event_time": "2026-10-01T04:45:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 134.03696
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:25:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0065",
+      "event_time": "2026-10-01T05:25:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 25.514883
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:00:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0084",
+      "event_time": "2026-10-01T07:00:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 144.264358
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:30:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0090",
+      "event_time": "2026-10-01T07:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 21.426785
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:45:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0088",
+      "event_time": "2026-10-01T07:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 26.100507
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:00:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0000",
+      "event_time": "2026-10-01T00:00:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 104.637262
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:35:11Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0055",
+      "event_time": "2026-10-01T04:35:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 133.391335
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:20:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0012",
+      "event_time": "2026-10-01T01:00:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.631903
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:20:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0076",
+      "event_time": "2026-10-01T06:20:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 161.696424
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:20:19Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0074",
+      "event_time": "2026-10-01T06:10:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 156.576432
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:20:18Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0016",
+      "event_time": "2026-10-01T01:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.053898
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:55:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0023",
+      "event_time": "2026-10-01T01:55:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.348932
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:20:19Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0074",
+      "event_time": "2026-10-01T06:10:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 26.193324
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:15:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0039",
+      "event_time": "2026-10-01T03:15:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 119.504614
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:20:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0064",
+      "event_time": "2026-10-01T05:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 26.395976
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:25:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0077",
+      "event_time": "2026-10-01T06:25:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 25.286463
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:45:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0021",
+      "event_time": "2026-10-01T01:45:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 99.805058
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:55:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0011",
+      "event_time": "2026-10-01T00:55:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.062473
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:30:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0030",
+      "event_time": "2026-10-01T02:30:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 111.455817
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:00:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0024",
+      "event_time": "2026-10-01T02:00:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.958642
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:45:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0093",
+      "event_time": "2026-10-01T07:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 16.36589
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:15:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0087",
+      "event_time": "2026-10-01T07:15:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 167.263386
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:35:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0067",
+      "event_time": "2026-10-01T05:35:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 139.705735
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:25:14Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0041",
+      "event_time": "2026-10-01T03:25:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 108.203996
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:50:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0082",
+      "event_time": "2026-10-01T06:50:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 125.372123
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:15:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0027",
+      "event_time": "2026-10-01T02:15:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 116.658975
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:45:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0081",
+      "event_time": "2026-10-01T06:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 15.705303
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:10:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0062",
+      "event_time": "2026-10-01T05:10:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 162.788935
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:15:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0063",
+      "event_time": "2026-10-01T05:15:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 28.191595
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:10:07Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0026",
+      "event_time": "2026-10-01T02:10:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.191199
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:45:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0009",
+      "event_time": "2026-10-01T00:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 8.26828
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:40:18Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0020",
+      "event_time": "2026-10-01T01:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.121325
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:40:18Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0020",
+      "event_time": "2026-10-01T01:40:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 100.353764
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:30:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0014",
+      "event_time": "2026-10-01T01:10:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 113.321007
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:05:09Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0049",
+      "event_time": "2026-10-01T04:05:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.852457
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:40:12Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0068",
+      "event_time": "2026-10-01T05:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.084377
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:00:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0060",
+      "event_time": "2026-10-01T05:00:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 139.518218
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:05:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0037",
+      "event_time": "2026-10-01T03:05:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 111.613323
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:30:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0030",
+      "event_time": "2026-10-01T02:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.509333
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:10:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0050",
+      "event_time": "2026-10-01T04:10:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 111.820509
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:40:12Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0032",
+      "event_time": "2026-10-01T02:40:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 104.24887
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:40:12Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0032",
+      "event_time": "2026-10-01T02:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 8.53417
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:05:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0037",
+      "event_time": "2026-10-01T03:05:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.653261
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:55:06Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0035",
+      "event_time": "2026-10-01T02:55:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 8.268911
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:30:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0042",
+      "event_time": "2026-10-01T03:30:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 114.95709
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:20:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0052",
+      "event_time": "2026-10-01T04:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.59383
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:55:02Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0059",
+      "event_time": "2026-10-01T04:55:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 18.59314
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:45:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0021",
+      "event_time": "2026-10-01T01:45:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 6.799597
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:15:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0015",
+      "event_time": "2026-10-01T01:15:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 118.299268
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:05:10Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0085",
+      "event_time": "2026-10-01T07:05:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 24.992455
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:55:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0083",
+      "event_time": "2026-10-01T06:55:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 135.160649
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:35:15Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0061",
+      "event_time": "2026-10-01T05:05:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 25.33044
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:40:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0092",
+      "event_time": "2026-10-01T07:40:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 131.245667
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:45:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0079",
+      "event_time": "2026-10-01T06:35:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 19.726747
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:40:05Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0017",
+      "event_time": "2026-10-01T01:25:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.98237
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:20:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0076",
+      "event_time": "2026-10-01T06:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 26.484955
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:40:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0056",
+      "event_time": "2026-10-01T04:40:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 129.767408
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:15:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0051",
+      "event_time": "2026-10-01T04:15:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 114.857933
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:50:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0094",
+      "event_time": "2026-10-01T07:50:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 130.295724
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:45:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0009",
+      "event_time": "2026-10-01T00:45:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 101.45446
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:05:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0025",
+      "event_time": "2026-10-01T02:05:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 114.165759
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:40:12Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0068",
+      "event_time": "2026-10-01T05:40:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 17.084377
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:40:12Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0068",
+      "event_time": "2026-10-01T05:40:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 134.623013
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:10:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0050",
+      "event_time": "2026-10-01T04:10:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 12.031683
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:30:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0078",
+      "event_time": "2026-10-01T06:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 22.038012
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:15:19Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0003",
+      "event_time": "2026-10-01T00:15:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 13.216334
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:55:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0095",
+      "event_time": "2026-10-01T07:55:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 141.553344
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:50:02Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0046",
+      "event_time": "2026-10-01T03:50:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 102.100219
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:55:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0023",
+      "event_time": "2026-10-01T01:55:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 109.390891
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T03:15:04Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0039",
+      "event_time": "2026-10-01T03:15:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 11.722789
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T05:20:01Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0064",
+      "event_time": "2026-10-01T05:20:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 26.395976
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:50:11Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0054",
+      "event_time": "2026-10-01T04:30:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 103.734404
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:45:07Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0033",
+      "event_time": "2026-10-01T02:45:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 105.89668
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:35:16Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0031",
+      "event_time": "2026-10-01T02:35:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 9.214183
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:30:09Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0018",
+      "event_time": "2026-10-01T01:30:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 106.884557
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:30:17Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0078",
+      "event_time": "2026-10-01T06:30:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 149.243089
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:55:06Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0035",
+      "event_time": "2026-10-01T02:55:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 106.165155
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T06:45:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0081",
+      "event_time": "2026-10-01T06:45:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 127.145619
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:30:20Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0006",
+      "event_time": "2026-10-01T00:30:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 10.102989
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T01:20:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0012",
+      "event_time": "2026-10-01T01:00:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 110.366997
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:50:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0034",
+      "event_time": "2026-10-01T02:50:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 98.955079
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T00:25:19Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0005",
+      "event_time": "2026-10-01T00:25:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 109.096197
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T02:50:03Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-calls-0034",
+      "event_time": "2026-10-01T02:50:00Z",
+      "metric": "tool_calls",
+      "revision": 1,
+      "type": "behavior",
+      "value": 7.585348
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T07:45:13Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0093",
+      "event_time": "2026-10-01T07:45:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 132.49998
+    },
+    {
+      "agent_id": "agent-demo",
+      "arrival_time": "2026-10-01T04:25:08Z",
+      "dimensions": {
+        "channel": "foreground",
+        "tool_group": "application"
+      },
+      "event_id": "agent-demo-latency-0053",
+      "event_time": "2026-10-01T04:25:00Z",
+      "metric": "latency_ms",
+      "revision": 1,
+      "type": "behavior",
+      "value": 113.00407
+    }
+  ]
+}

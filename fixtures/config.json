@@ -1,0 +1,11 @@
+{
+  "windows": [
+    {"name": "15m", "size_seconds": 900, "step_seconds": 300, "allowed_lateness_seconds": 600, "minimum_points": 2},
+    {"name": "1h", "size_seconds": 3600, "step_seconds": 900, "allowed_lateness_seconds": 1200, "minimum_points": 4}
+  ],
+  "baseline": {"history_windows": 48, "minimum_samples": 6, "season_period_seconds": 86400, "season_tolerance_seconds": 3600, "warn_z": 3.0, "critical_z": 5.0},
+  "change": {"short_windows": 3, "long_windows": 10, "minimum_effect": 0.35, "confirmation_windows": 2, "cusum_threshold": 4.0},
+  "alerts": {"dedupe_seconds": 1800, "suppression_seconds": 900, "budget_window_seconds": 86400, "suppression_budget": 3, "max_suppression_seconds": 3600, "auto_resolve_seconds": 10800},
+  "capability_allowlist": {"agent-demo": ["observe", "summarize"]},
+  "protected_capabilities": ["purchase", "send_message", "install_application"]
+}
